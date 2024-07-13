@@ -1,0 +1,28 @@
+.window-controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 10px;
+  padding: 5px;
+}
+.window-controls button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 16px;
+  color: black;
+}
+.drag-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  -webkit-app-region: drag;
+  cursor: default; /* 保持鼠标样式为默认 */
+}
+.window-controls button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}

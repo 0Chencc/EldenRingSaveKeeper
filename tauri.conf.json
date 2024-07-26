@@ -3,7 +3,7 @@
     "beforeBuildCommand": "npm run build",
     "beforeDevCommand": "npm run dev",
     "devPath": "http://localhost:5173/",
-    "distDir": "./dist/tauri/"
+    "distDir": "../dist/vite"
   },
   "package": {
     "productName": "EldenRingSaveKeeper",
@@ -28,7 +28,7 @@
         "icons/icon.png",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "org.0chencc.eldenRingSaveKeeper",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
